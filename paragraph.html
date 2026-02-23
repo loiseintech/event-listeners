@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Text change</h1>
+        <p id="message"></p>
+        <button type="button" onclick="submit()">Click me</button>
+
+        <script>
+            function submit(){
+                let msg=document.querySelector("#message");
+                msg.innerHTML="Welcome";
+                msg.style.color="green";
+
+            }
+           
+        </script>
+    </body>
+</html>
