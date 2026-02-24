@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="text" id="fname" placeholder="Enter your name">
+        <button onclick="submit()">Submit</button>
+        <p id="para"></p>
+
+        <script>
+            function submit(){
+                let name=document.querySelector("#fname");
+                let paragraph=document.querySelector("#para");
+                paragraph.innerHTML=fname.value;
+            }
+        </script>
+    </body>
+</html>

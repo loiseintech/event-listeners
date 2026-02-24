@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="item">
+            <h1 id="heading">Elegance Rack</h1>
+            <p id="invite">Welcome to our shop</p>
+            <button onclick="change()">Change</button>
+
+            <script>
+                function change(){
+                    let head=document.querySelector("#heading");
+                    head.innerHTML="Simply offering the best";
+
+                    let inv=document.querySelector("#invite");
+                    inv.style.color="green";
+
+                    let itm=document.querySelector(".item");
+                    itm.style.backgroundColor="grey";
+                }
+            </script>
+        </div>
+    </body>
+</html>
